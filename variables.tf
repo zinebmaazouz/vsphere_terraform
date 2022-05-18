@@ -21,8 +21,7 @@ variable "resource_pool" {}
 # VM Name
 variable "name" {}
 
-# Name of OVA template (chosen in import process)
-variable "template" {}
+
 
 # VM Network 
 variable "network" {}
