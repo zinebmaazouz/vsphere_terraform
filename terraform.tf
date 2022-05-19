@@ -33,6 +33,7 @@ data "vsphere_host" "host" {
 
 
 
+
 resource "vsphere_virtual_machine" "vm" {
   name             = "${var.name}"
   resource_pool_id = "${data.vsphere_resource_pool.pool.id}"
