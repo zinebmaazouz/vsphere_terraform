@@ -1,0 +1,8 @@
+stages:
+- name: hi
+  steps:
+  - runScriptConfig:
+      image: node:latest
+      shellScript: npm install
+timeout: 60
+notification: {}
